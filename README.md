@@ -5,7 +5,7 @@ The Collatz Conjecture or the Collatz Sequence is a very well-known problem in m
 Here's how it works:
 <ol>
   <li>Pick any random number you can think of.</li>
-  <li>If the number is even, divide it by 2.</li>\
+  <li>If the number is even, divide it by 2.</li>
   <li>If the number is odd, multiply it by 3 and add 1 to it.</li>
   <li>Repeat this process until you get to the number '4'.</li>
 </ol>
