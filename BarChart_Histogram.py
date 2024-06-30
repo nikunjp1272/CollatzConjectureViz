@@ -15,7 +15,7 @@ def collatz(n):
     return sequence
 
 # Generate data
-max_num = 100
+max_num = 1000
 data = []
 for i in range(1, max_num+1):
     sequence = collatz(i)
@@ -30,16 +30,21 @@ df = pd.DataFrame(data)
 
 # Bar chart using Matplotlib
 plt.figure(figsize=(10, 6))
+# This bar chart shows the length of the Collatz sequence for each starting number
+# X-axis: Starting numbers from 1 to 1000
+# Y-axis: Length of the Collatz sequence for each starting number
 plt.bar(df['start'], df['length'])
 plt.xlabel('Starting Number')
 plt.ylabel('Sequence Length')
 plt.title('Collatz Conjecture Sequence Lengths')
 plt.show()
 
-
 # Histogram using Seaborn
 plt.figure(figsize=(10, 6))
-sns.histplot(data=df, x='length', bins=20)
+# This histogram shows the distribution of Collatz sequence lengths
+# X-axis: Different sequence lengths observed
+# Y-axis: Count of starting numbers that result in each sequence length
+sns.histplot(data=df, x='length', bins=200)
 plt.xlabel('Sequence Length')
 plt.ylabel('Count')
 plt.title('Histogram of Collatz Conjecture Sequence Lengths')
