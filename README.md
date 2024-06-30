@@ -33,5 +33,5 @@ Another visualization that looks almost like a coral, is another depiction of ho
 
 <img alt="" src="https://github.com/nikunjp1272/CollatzConjectureViz/blob/main/images/RainbowCoral.png" style="width:750px; height:500px;">
 
-The credits for the idea of this visualization go to <b>Numberphile</b> on YouTube. However the image is not taken from the video itself.
+The credits for the idea of this visualization go to <b>Numberphile</b> on YouTube. However the image is not taken from the video itself.\n
 [Link to the video of Numberphile](https://youtu.be/LqKpkdRRLZw?si=tXq4PwXQx2UhsLI0)
