@@ -16,3 +16,10 @@ The collatz.py file has the basic code of how the problem works and you can plug
 Below is a scatter plot of all the numbers between 5000 (on X-axis) vs the number of operations they take to reach '1'.
 
 <img alt="Length Of Operations vs Number" src="https://github.com/nikunjp1272/CollatzConjectureViz/blob/main/images/LengthOfOperations_vs_Number.png" style="width:750px; height:500px;">
+
+Another visualization that looks almost like a coral, is another depiction of how the Collatz Sequence progresses.
+
+<img alt="" src="https://github.com/nikunjp1272/CollatzConjectureViz/blob/main/images/RainbowCoral.png" style="width:750px; height:500px;">
+
+The credits for the idea of this visualization go to <b>Numberphile</b> on YouTube. However the image is not taken from the video itself.
+[Link text](https://youtu.be/LqKpkdRRLZw?si=tXq4PwXQx2UhsLI0)
