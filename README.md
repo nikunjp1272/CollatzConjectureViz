@@ -13,9 +13,21 @@ After reaching the number 4 you'll realize that you're stuck in an endless loop 
 Even the largest number that you could think of ends with this loop.
 The collatz.py file has the basic code of how the problem works and you can plug in various numbers to check out how the function behaves.
 
+
+
+We can see the Sequence lengths of each of the numbers (till 1000) in the Bar Chart below:
+<img alt="Starting Number vs Sequence Length" src="https://github.com/nikunjp1272/CollatzConjectureViz/blob/main/images/BarChart.png" style="width:750px; height:500px;">
+
+And the below Histogram shows the frequency of each of the Sequence Lengths:
+<img alt="Sequence Length vs the Frequency of the Sequence Lengths" src="https://github.com/nikunjp1272/CollatzConjectureViz/blob/main/images/Histogram.png" style="width:750px; height:500px;">
+
+
+
 Below is a scatter plot of all the numbers between 5000 (on X-axis) vs the number of operations they take to reach '1'.
 
 <img alt="Length Of Operations vs Number" src="https://github.com/nikunjp1272/CollatzConjectureViz/blob/main/images/LengthOfOperations_vs_Number.png" style="width:750px; height:500px;">
+
+
 
 Another visualization that looks almost like a coral, is another depiction of how the Collatz Sequence progresses.
 
