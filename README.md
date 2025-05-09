@@ -1,56 +1,37 @@
-# 📐 Collatz Conjecture Visualizations
+# CollatzConjectureViz
 
-## What is the Collatz Conjecture?
+## The Collatz Conjecture
 
-The Collatz Conjecture is a famous unsolved problem in mathematics. It works like this:
+The Collatz Conjecture or the Collatz Sequence is a very well-known problem in mathematics.
+Here's how it works:
 
-1.  Pick any positive integer.
+1.  Pick any random number you can think of.
 2.  If the number is even, divide it by 2.
-3.  If the number is odd, multiply it by 3 and add 1.
-4.  Repeat the process with the resulting number.
+3.  If the number is odd, multiply it by 3 and add 1 to it.
+4.  Repeat this process until you get to the number '4'.
 
-Eventually, every number tested so far ends in the loop: 4 → 2 → 1 → 4...
+After reaching the number 4 you'll realize that you're stuck in an endless loop of 4 -> 2 -> 1
+Even the largest number that you could think of ends with this loop.
+The `collatz.py` file has the basic code of how the problem works and you can plug in various numbers to check out how the function behaves.
 
-## 📊 Visualizations Included
+## Visualizations
 
-### 🔁 Sequence Length Bar Chart
-
-This bar chart displays the number of steps (sequence length) each starting number (from 1 to 1000) takes to reach 1.
+We can see the Sequence lengths of each of the numbers (till 1000) in the Bar Chart below:
 
 <img alt="Starting Number vs Sequence Length" src="https://github.com/nikunjp1272/CollatzConjectureViz/blob/main/images/BarChart.png" style="width:750px; height:500px;">
 
-### 📉 Histogram of Sequence Lengths
+And the below Histogram shows the frequency of each of the Sequence Lengths:
 
-This histogram shows the distribution of how long the sequences are for numbers up to 1000.
+<img alt="Sequence Length vs the Frequency of the Sequence Lengths" src="https://github.com/nikunjp1272/CollatzConjectureViz/blob/main/images/Histogram.png" style="width:750px; height:500px;">
 
-<img alt="Histogram of Sequence Lengths" src="https://github.com/nikunjp1272/CollatzConjectureViz/blob/main/images/Histogram.png" style="width:750px; height:500px;">
+Below is a scatter plot of all the numbers between 5000 (on X-axis) vs the number of operations they take to reach '1'.
 
-### 🐢 Turtle Graphics (Spiral View)
+<img alt="Length Of Operations vs Number" src="https://github.com/nikunjp1272/CollatzConjectureViz/blob/main/images/LengthOfOperations_vs_Number.png" style="width:750px; height:500px;">
 
-This unique visualization uses turtle graphics to draw turning paths based on whether the number is even or odd:
+Another visualization that looks almost like a coral, is another depiction of how the Collatz Sequence progresses.
 
-* **Even → Turn Left**
-* **Odd → Turn Right**
+<img alt="" src="https://github.com/nikunjp1272/CollatzConjectureViz/blob/main/images/RainbowCoral.png" style="width:750px; height:500px;">
 
-Each path traces the journey of a number down the Collatz sequence.
+The credits for the idea of this visualization go to **Numberphile** on YouTube. However the image is not taken from the video itself.
 
-<img alt="Turtle Path Visualization" src="https://github.com/nikunjp1272/CollatzConjectureViz/blob/main/images/Spirals.png" style="width:750px; height:500px;">
-
-## 📂 Files
-
-* `collatz.py`: Core logic for generating Collatz sequences.
-* `visuals.py`: Code for plotting bar charts and histograms.
-* `turtle_viz.py`: Code for spiral turtle graphics.
-* `images/`: Contains the output images shown above.
-
-## 🚀 Getting Started
-
-Make sure you have Python 3 installed. Then install the required libraries:
-
-```bash
-pip install matplotlib turtle
-```
-Run the files:
-python collatz.py         # For basic sequence testing
-python visuals.py         # To generate bar/histogram charts
-python turtle_viz.py      # To draw turtle graphics
+[Link to the Numberphile video 'UNCRACKABLE? The Collatz Conjecture - Numberphile'](http://www.youtube.com/watch?v=5mFpVDpKX70)
